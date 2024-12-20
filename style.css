@@ -1,0 +1,134 @@
+/* General Styles */
+body {
+    font-family: Arial,serif;
+    background-image: url("image\ 2.jpg");
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+    color: #0f0f0ef6;
+    
+  }
+  
+  header {
+    background-color: rgba(86, 236, 236, 0.8);
+    text-align: center;
+    padding: 10px 20px;
+    position: relative;
+    z-index: 10;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  nav {
+    margin: 10px 0;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    color: yellow;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Character Grid Styles */
+  .character-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+  }
+  
+  .character-card {
+    background-color: rgba(191, 215, 231, 0.863);
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    max-width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  .character-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .character-card h3 {
+    color: yellow;
+  }
+  
+  .character-card p {
+    font-size: 0.9em;
+  }
+  
+  /* Featured Character Section */
+  section h3 a {
+    color: lightblue;
+    text-decoration: none;
+  }
+  
+  section h3 a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    background-color: rgb(86, 214, 219);
+    padding: 10px 20px;
+    position: fixed;
+    z-index: 10;
+    margin-top: 180px;
+    bottom: 0;
+    width:100%;
+  }
+.charactersec{
+  background-color: rgba(226, 244, 250, 0.938);
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    max-width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+h2{
+  color: rgb(255, 0, 0);
+  box-shadow: #0f0f0ef6;
+  text-shadow: #0f0f0ef6;
+  font-weight: bold;
+}
+p{
+  font-weight:bolder;
+}
+.f{
+  text-align: center;
+  background-color: aqua;
+}
+button{
+  cursor: pointer;
+}
+#edit{
+  font-weight: bolder;
+  font-size: larger;
+}
+img{
+  border:solid;
+  border-color: gold;
+  border-style: double;
+}
+.character-frame{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
